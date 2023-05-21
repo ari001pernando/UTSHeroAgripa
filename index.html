@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Blog Pribadi Saya</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f2f2f2;
+      padding: 20px;
+    }
+    
+    h1 {
+      color: #618AF9;
+      text-align: center;
+		background-color: #D2D2D2;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+		border-radius: 5px;
+      margin-bottom: 40px;
+    }
+    
+    .profile {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      margin-bottom: 40px;
+    }
+    
+    .profile-image {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      overflow: hidden;
+      margin-right: 20px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    }
+    
+    .profile-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    
+    .profile-details {
+      color: #66BAFF;
+    }
+    
+    .profile-details h2 {
+      margin-bottom: 10px;
+      font-size: 24px;
+    }
+    
+    .profile-details p {
+      font-size: 16px;
+      margin-bottom: 5px;
+    }
+    
+    .post {
+      background-color: #54B7FF;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      margin-bottom: 20px;
+    }
+    
+    .post h2 {
+      color: #333;
+      margin-bottom: 10px;
+      font-size: 20px;
+    }
+    
+    .post p {
+      font-size: 16px;
+      line-height: 1.5;
+    }
+	.gallery {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 20px;
+    }
+    
+    .gallery-item {
+      overflow: hidden;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    
+    .gallery-item img {
+      width: 100%;
+      height: auto;
+      display: block;
+      object-fit: cover;
+      transition: transform 0.3s ease;
+    }
+    
+    .gallery-item img:hover {
+      transform: scale(1.1);
+    }
+  </style>
+</head>
+<body>
+  <h1>Selamat datang di Blog Pribadi Saya</h1>
+  
+<div class="profile">
+  <div class="profile-image">
+      <img src="gambar.jpeg" alt="Foto Profil">
+    </div>
+    <div class="profile-details">
+      <h2>Nama: Hero Agripa Bancin</h2>
+		<p>NPM: 221430036</p>
+      <p>TTL: Medan 12 Mei 2003</p>
+      <p>Alamat: Medan, Indonesia</p>
+      <p>Email: heroagripa12@gmail.com</p>
+    </div>
+  </div>
+  
+  <div class="post">
+    <h2>Data Diri</h2>
+    <p> &nbsp;Hallo Selamat Datang diBlog Pribadi saya Perkenalkan nama saya Hero Agripa Bancin saya biasanya dipanggil agri kalau dirumah tapi dikampus atau diluar saya dipanggil hero kan aneh. Saya dua bersaudara dan saya adalah anak pertama&nbsp; &nbsp; &nbsp;</p>
+    <p> Kampung halaman saya ada di Tiga Lingga tepatnya Tigalingga, Kab.Dairi, Sumatra Utara, Indonesia </p>
+    <p>Saya pernah sekolah di SD Inpres Kutambaru, SMPN 2 Tanah Pinem, SMAS Panti Harapan dan sekarang saya kuliah di Universitas Methodist Indonesia.</p>
+    <p>Jurusan saya adalah Manajemen Informatika dan blog pribadi ini adalah tugas UTS dari dosen saya&nbsp;&nbsp;</p>
+<p>&nbsp;</p>
+</div>
+  
+  <div class="post">
+    <h2>Galeri</h2>
+    <div class="gallery">
+    <div class="gallery-item">
+      <img src="gambar.jpeg" alt="Gambar 1">
+		<center><h5>Hero Agripa Bancin</h5></center>
+    </div>
+	  </div>
+    <div class="gallery-item">
+      <img src="gambar2.jpeg" alt="Gambar 2">
+		<center><h5>Tiga Lingga</h5></center>
+    </div>
+    <div class="gallery-item">
+      <img src="gambar3.jpeg" alt="Gambar 3">
+		<center><h5>Universitas Methodist Indonesia</h5></center>
+    </div>
+	  </div>
+</body>
+</html>
